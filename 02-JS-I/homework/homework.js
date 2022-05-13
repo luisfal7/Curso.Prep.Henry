@@ -104,7 +104,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 500){
+  if (num > 50){
     return true;
   }
   return false;
@@ -198,10 +198,10 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
 
   if(numero > 0){
-    var posi = 'es positivo';
+    var posi = 'Es positivo';
     return posi;
   }if(numero < 0){
-    var nega = 'es negativo';
+    var nega = 'Es negativo';
     return nega;
   }else{
     return false;
